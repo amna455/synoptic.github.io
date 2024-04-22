@@ -1,0 +1,172 @@
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+.sec {
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 350px;
+    
+}
+
+.image-container1 {
+    width: 40;
+    height: 400px;
+    position: absolute;
+    top: 112%;
+    left: 16.9%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.image-container1:hover .overlay {
+    opacity: 0.8;
+}
+
+.image-container2 {
+    width: 40;
+    height: 400px;
+    position: absolute;
+    top: 112%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container2:hover .overlay {
+    opacity: 0.8;
+}
+
+.image-container3 {
+    width: 40;
+    height: 400px;
+    position: absolute;
+    top: 112%;
+    left: 83.2%;
+    transform: translate(-50%, -50%);
+}
+
+.image-container3:hover .overlay {
+    opacity: 0.8;
+}
+
+.bullet-points {
+    list-style-type: none;
+}
+
+.bullet-points li {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+    position: relative;
+}
+
+.bullet-points li::before {
+    content: "\2022";
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    left: 0.5%;
+}
+
+.side-by-side {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.side-by-side3 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side4 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.side-by-side5 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side6 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.side-by-side7 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side8 {
+   display: grid;
+   grid-template-columns: auto auto;
+}
+
+.side-by-side9 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side10 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side11 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.side-by-side12{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
